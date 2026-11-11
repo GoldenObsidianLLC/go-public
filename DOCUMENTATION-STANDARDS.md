@@ -34,7 +34,7 @@ These standards are the canonical authoring and maintenance rules for the public
 - Use tables for compact comparisons, not for long prose. Use meaningful alt text for informative images.
 - Keep paragraphs focused and lists parallel. Avoid decorative formatting that harms accessibility or mobile readability.
 - Use lowercase kebab-case for new Markdown filenames. Section index files use README.md. News and announcement files use YYYY-MM-DD-title.md.
-- Use UTF-8 text and LF line endings. Avoid embedding large binary assets when a link to a verified, appropriately licensed asset is sufficient.
+- Use UTF-8 text. The root .gitattributes file normalizes text files to LF line endings across Windows and Unix checkouts. Avoid embedding large binary assets when a link to a verified, appropriately licensed asset is sufficient.
 
 ## 3. Frontmatter
 
