@@ -1,0 +1,27 @@
+# Obsidian device-specific state and plugin configuration
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/
+.trash/
+
+# Local secrets and private working material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+/private/
+/internal/
+/confidential/
+/secrets/
+
+# Generated or machine-specific files
+node_modules/
+dist/
+coverage/
+.DS_Store
+Thumbs.db
+Desktop.ini
