@@ -25,6 +25,12 @@ Golden Obsidian LLC takes the safe handling of security reports seriously. This 
 
 The repository setting was confirmed through GitHub's API on 2026-11-12. This policy does not promise a response time or a particular disclosure timeline.
 
+## Automated dependency maintenance
+
+The repository's dependency graph, Dependabot alerts, and Dependabot security updates were enabled on 2026-11-12. The [Dependabot configuration](.github/dependabot.yml) schedules weekly version-update checks for GitHub Actions. The documentation workflow continues to pin actions to full commit SHAs.
+
+Review Dependabot pull requests like other code changes: verify the upstream action and target commit, retain immutable full-SHA references, inspect workflow permissions and behavior changes, and require the protected-branch documentation check to pass before merging. Automated alerts and updates are useful signals, not proof that the repository is free of vulnerabilities.
+
 ## Public issue hygiene
 
 Use public issues for non-sensitive documentation and project defects only. Remove secrets from logs and screenshots before sharing. If a secret is exposed, revoke or rotate it at its source; deleting the public text alone does not invalidate the credential.

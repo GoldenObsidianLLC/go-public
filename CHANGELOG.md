@@ -28,6 +28,7 @@ The format follows the Keep a Changelog model, and tagged repository releases fo
 
 - Explicitly excluded protected intellectual property, confidential architecture, trade secrets, and sensitive operational details from the public vault.
 - Enabled GitHub private vulnerability reporting for the public repository.
+- Enabled the dependency graph, Dependabot alerts, and Dependabot security updates; configured weekly version checks for full-SHA-pinned GitHub Actions.
 - Restricted the documentation workflow to read-only repository permissions and disabled persisted checkout credentials.
 - Added best-effort checks for selected high-confidence credential patterns; these checks do not replace secret scanning or private security review.
 
