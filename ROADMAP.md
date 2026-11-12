@@ -76,6 +76,7 @@ This roadmap records the intended sequence of work for the public documentation 
 - Publish the first tagged documentation release only after the repository has sufficient stable content.
 - Maintain the changelog and use Semantic Versioning for tagged repository releases.
 - Review links, policies, public claims, and excluded-content safeguards periodically.
+- Maintain the dependency graph, Dependabot alerts and security updates, and weekly version checks for full-SHA-pinned GitHub Actions.
 
 **Acceptance:** Each tag maps to a reviewed changelog entry, release notes are reproducible from merged changes, and maintenance responsibilities are clear.
 
