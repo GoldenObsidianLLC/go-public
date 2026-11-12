@@ -1,11 +1,11 @@
 ---
 title: "Documentation Standards"
 description: "Canonical Markdown, Obsidian, GitHub, maintenance, and versioning standards for this repository."
-type: "policy"
-status: "published"
+type: policy
+status: published
 owner: "Golden Obsidian LLC"
 created: "2026-11-11"
-updated: "2026-11-11"
+updated: "2026-11-12"
 license: "CC-BY-4.0"
 tags:
   - documentation
@@ -38,7 +38,7 @@ These standards are the canonical authoring and maintenance rules for the public
 
 ## 3. Frontmatter
 
-Every maintained Markdown document should use the shared YAML frontmatter schema shown in the document template. The root README, section README files, templates README, and root CHANGELOG are intentional exceptions so GitHub can present them cleanly.
+Every maintained Markdown document should use the shared YAML frontmatter schema shown in the document template. The root README, section README files, templates README, root CHANGELOG, and GitHub pull request template are intentional exceptions so navigation and contribution surfaces render cleanly.
 
 Required fields:
 
@@ -102,3 +102,9 @@ Before 1.0.0, the 0.y.z series is pre-stable and does not promise compatibility.
 Use focused changes, descriptive commit messages, and pull requests that explain purpose, scope, sources, and risk. Prefer Conventional Commit prefixes such as docs, fix, feat, chore, and security. Link related issues and keep changes small enough to review. Do not force-push shared branches or bypass required reviews and checks once they are configured.
 
 See [Contributing](CONTRIBUTING.md), [Licensing](05-governance-and-policies/licensing.md), and [Security](SECURITY.md) for the related canonical policies.
+
+## 9. Automated validation and its limits
+
+The dependency-free validator is maintained at scripts/validate_docs.py, with standard-library unit tests in scripts/test_validate_docs.py. Both run through the documentation-quality GitHub Actions workflow. It checks maintained Markdown frontmatter, basic heading and fenced-code structure, relative Markdown link targets, UTF-8/LF/final-newline conventions, and a limited set of high-confidence credential patterns.
+
+The validator deliberately avoids network calls and third-party runtime dependencies. It does not check external URL availability, every Markdown or Obsidian extension, fragment-level heading targets, factual correctness, ownership, license compatibility, or every possible secret format. A passing workflow is a baseline quality signal—not an approval to publish and not a substitute for editorial, legal, licensing, or security review. The frontmatter validator intentionally supports the repository's documented scalar fields and simple tag lists; it is not a general-purpose YAML parser.

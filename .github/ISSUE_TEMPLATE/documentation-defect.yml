@@ -1,0 +1,48 @@
+name: Documentation defect
+description: Report an error, broken link, or outdated statement in the public documentation.
+title: "[Docs defect]: "
+labels:
+  - documentation
+  - "priority: normal"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for non-sensitive documentation issues only. Never include credentials, private data, confidential material, or vulnerability details.
+  - type: input
+    id: page
+    attributes:
+      label: Affected page
+      description: Repository-relative path to the Markdown file.
+      placeholder: 01-vision-and-culture/company-identity.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is incorrect or missing?
+      description: Describe the observed problem and its impact.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected correction
+      description: Describe the correction or provide a suggested replacement.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Authoritative source
+      description: Link to the source supporting the correction, if available.
+      placeholder: https://...
+    validations:
+      required: false
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Public disclosure check
+      options:
+        - label: I have not included secrets, personal data, private architecture, or security-sensitive details.
+          required: true

@@ -1,0 +1,55 @@
+name: Content proposal
+description: Propose a new public documentation topic or improvement.
+title: "[Content proposal]: "
+labels:
+  - enhancement
+  - governance
+  - "priority: normal"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Proposals should have a clear audience, authoritative sources, and a safe public-disclosure scope. Do not attach confidential or restricted source material.
+  - type: input
+    id: topic
+    attributes:
+      label: Proposed topic
+      description: A concise name for the proposed content.
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Intended audience and value
+      description: Who will use this information, and what problem will it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Proposed scope
+      description: Describe what should be covered and what should remain out of scope.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Authoritative sources
+      description: Provide public links or identify the owner of the source material.
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Suggested location
+      description: Proposed section or existing canonical page to update.
+      placeholder: 04-knowledge-base/
+    validations:
+      required: false
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Public disclosure check
+      options:
+        - label: The proposal excludes secrets, personal data, trade secrets, private architecture, and protected intellectual property.
+          required: true

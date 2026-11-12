@@ -1,29 +1,32 @@
 # Products and Projects
 
-This section introduces the products, platforms, and projects associated with Golden Obsidian LLC. It is a public showcase area, not a repository for internal engineering records.
+This section is the navigation index for the products, platforms, enabling technologies, and strategic initiatives associated with Golden Obsidian LLC. The [Company Identity](../01-vision-and-culture/company-identity.md) is the canonical source for portfolio roles and company-wide maturity boundaries.
 
-## Ecosystem
+## Portfolio sources
 
-### Harlan GI (H•GI)
+| Initiative | Public source |
+| --- | --- |
+| Harlan GI (H•GI) | Refer to the [Company Identity](../01-vision-and-culture/company-identity.md). No project repository is linked from this public index. |
+| CelestialVerse | Refer to the [Company Identity](../01-vision-and-culture/company-identity.md). No project repository is linked from this public index. |
+| VirgoScorpio Hub | [GitHub repository](https://github.com/GoldenObsidianLLC/VirgoScorpio-Hub) — source code, project documentation, releases, and project-specific governance. |
+| EnginEx | [GitHub repository](https://github.com/GoldenObsidianLLC/EnginEx) — enabling developer technology maintained separately from the primary platform domains. |
 
-A sovereign artificial intelligence platform described as leveraging hybrid Mixture-of-Experts and Selective State Space Duality architectures. Public showcase material should stay at the approved overview level; detailed architecture specifications and intellectual-property evidence are excluded.
+## Cross-cutting and strategic initiatives
 
-### CelestialVerse
+- **H•GI: ATLAS Laboratory** — planned research, testing, evidence-capture, and technical-review function. It is not presented here as an independent certification or accreditation body.
+- **MilitaryVerse** — planned defense-oriented and sovereign-integration application direction. No operational deployment, customer relationship, procurement award, or defense qualification is implied.
 
-A real-time spatial-temporal computing framework and 3D planetary biome builder powered by WebGPU and 3D Gaussian Splatting. Claims about performance, supported devices, capabilities, and availability require verification before publication.
+## Project documentation rules
 
-### VirgoScorpio Hub
+Use the [product showcase template](../templates/product-showcase-template.md) when a project page is ready for public publication. Each showcase must identify the authoritative source, state its current status, distinguish released capabilities from prototypes and plans, and support material claims with appropriate evidence.
 
-An open-source human–AI collaboration and task-orchestration platform, formerly named SystemFabric. Visit the [VirgoScorpio Hub repository](https://github.com/GoldenObsidianLLC/VirgoScorpio-Hub) for its source and project-specific documentation.
+Project-specific repositories remain authoritative for implementation, supported configurations, release records, and project licenses. This index should link to those sources instead of duplicating their specifications or changelogs.
 
-## Showcase requirements
-
-Use the [product showcase template](../templates/product-showcase-template.md) for new project pages. Each showcase should identify its current status, link to canonical project sources, distinguish released capabilities from planned work, and cite evidence for benchmarks or compatibility claims.
-
-Do not publish private architecture specifications, unreleased security details, source code that is not approved for release, intellectual-property proofs, trade secrets, credentials, or confidential roadmaps in this public repository. See the [licensing policy](../05-governance-and-policies/licensing.md).
+Do not publish private architecture specifications, unreleased security details, source code that is not approved for release, intellectual-property proofs, trade secrets, credentials, or confidential roadmaps in this public repository. See the [Licensing Policy](../05-governance-and-policies/licensing.md).
 
 ## Related sections
 
+- [Vision and Culture](../01-vision-and-culture/README.md)
 - [Knowledge Base](../04-knowledge-base/README.md)
 - [Governance and Policies](../05-governance-and-policies/README.md)
 - [News and Announcements](../06-news-and-announcements/README.md)

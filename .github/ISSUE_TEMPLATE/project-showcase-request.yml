@@ -1,0 +1,67 @@
+name: Project showcase request
+description: Request or propose a public-facing project overview.
+title: "[Showcase request]: "
+labels:
+  - project-showcase
+  - "priority: normal"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A showcase must be based on authoritative public sources. It must separate released capabilities from previews, prototypes, and plans.
+  - type: input
+    id: project
+    attributes:
+      label: Project or initiative
+      description: Name the product, platform, or initiative.
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Canonical public repository or website
+      description: Provide the public source of truth. State clearly when no public source exists.
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: dropdown
+    id: maturity
+    attributes:
+      label: Current maturity
+      options:
+        - Released
+        - Preview
+        - Prototype
+        - Research
+        - Planned
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: capabilities
+    attributes:
+      label: Verified capabilities
+      description: List only capabilities supported by the public source. Identify evidence and version where applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations and exclusions
+      description: State what must not be implied or disclosed.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence and approvals
+      description: Link to releases, documentation, reproducible benchmarks, and approvals for public claims.
+    validations:
+      required: true
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Public disclosure check
+      options:
+        - label: This request contains no confidential architecture, IP proofs, secrets, private security details, or unauthorized third-party material.
+          required: true

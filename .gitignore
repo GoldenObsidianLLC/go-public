@@ -22,6 +22,8 @@
 node_modules/
 dist/
 coverage/
+__pycache__/
+*.py[cod]
 .DS_Store
 Thumbs.db
 Desktop.ini
