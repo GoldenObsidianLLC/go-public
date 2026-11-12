@@ -46,7 +46,7 @@ This roadmap records the intended sequence of work for the public documentation 
 
 ## Phase 2 ? Verified company and product content
 
-**Progress note (2026-11-12):** Issue [#4](https://github.com/GoldenObsidianLLC/go-public/issues/4) tracks source-backed review-stage showcases for VirgoScorpio Hub and EnginEx. Their repository metadata, default-branch commits, package metadata, and project notices were checked on 2026-11-12. The pages intentionally avoid reproducing transient test metrics and distinguish package versions from public releases. The company identity page remains in review; Harlan GI and CelestialVerse remain index-only pending authoritative public sources.
+**Progress note (2026-11-12):** Review-stage showcases for VirgoScorpio Hub and EnginEx were merged through [PR #5](https://github.com/GoldenObsidianLLC/go-public/pull/5); tracking [issue #4](https://github.com/GoldenObsidianLLC/go-public/issues/4) is closed. Their repository metadata, default-branch commits, package metadata, and project notices were checked on 2026-11-12. The pages avoid reproducing transient test metrics and distinguish package versions from public releases. The company identity page remains in review; Harlan GI and CelestialVerse remain index-only pending authoritative public sources. The stale and overlapping VirgoScorpio Hub README status snapshots are tracked upstream in [issue #133](https://github.com/GoldenObsidianLLC/VirgoScorpio-Hub/issues/133).
 
 **Scope:** Populate the index pages with approved, source-backed documents.
 
