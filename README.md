@@ -8,7 +8,7 @@ It is not a mirror of internal engineering work. Confidential material, private 
 
 ## Company identity and portfolio
 
-Golden Obsidian LLC is a Houston-based, engineering-led sovereign technology and advanced systems engineering company. Its portfolio spans Governed Intelligence, spatial computing, human–AI collaboration, and enabling developer infrastructure. The [Company Identity](01-vision-and-culture/company-identity.md) is the canonical public overview of the company's mission, principles, portfolio structure, and development boundaries. The [Products and Projects index](02-products-and-projects/README.md) provides project navigation.
+Golden Obsidian LLC is a Houston-based, engineering-led sovereign technology and advanced systems engineering company. Its portfolio spans Governed Intelligence, spatial computing, human–AI collaboration, and enabling developer infrastructure. The [Company Identity](01-vision-and-culture/company-identity.md) is the current review-stage candidate for the canonical overview of the company's mission, principles, portfolio structure, and development boundaries. The [Products and Projects index](02-products-and-projects/README.md) provides project navigation and links to review-stage showcases for projects with verifiable public source repositories.
 
 ## Repository map
 
@@ -34,4 +34,4 @@ Corrections, documentation improvements, and focused proposals are welcome. Plea
 
 ## Repository status
 
-This repository is establishing its public documentation baseline and governance controls. Section indexes, publishing conventions, templates, and baseline validation are maintained incrementally. The [roadmap](ROADMAP.md) records planned work; an item is not complete until its acceptance criteria are met and the change is merged.
+The public documentation baseline and Phase 1 GitHub governance controls are established. Phase 2 is expanding source-backed company and project content; the company identity and current project showcases remain explicitly marked for review. The [roadmap](ROADMAP.md) records planned work; an item is not complete until its acceptance criteria are met and the change is merged.

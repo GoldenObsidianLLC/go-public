@@ -44,16 +44,19 @@ This roadmap records the intended sequence of work for the public documentation 
 
 **Acceptance (met 2026-11-12):** Contributors can report issues, submit focused pull requests, and receive automated baseline validation. Security-sensitive reports have a verified private reporting path.
 
-## Phase 2 — Verified company and product content
+## Phase 2 ? Verified company and product content
+
+**Progress note (2026-11-12):** Issue [#4](https://github.com/GoldenObsidianLLC/go-public/issues/4) tracks source-backed review-stage showcases for VirgoScorpio Hub and EnginEx. Their repository metadata, default-branch commits, package metadata, and project notices were checked on 2026-11-12. The pages intentionally avoid reproducing transient test metrics and distinguish package versions from public releases. The company identity page remains in review; Harlan GI and CelestialVerse remain index-only pending authoritative public sources.
 
 **Scope:** Populate the index pages with approved, source-backed documents.
 
-- Review and approve the canonical company identity and public portfolio hierarchy.
-- Add public showcase pages for Harlan GI, CelestialVerse, and VirgoScorpio Hub when their public source material and status are ready.
-- Add verified getting-started material and frequently asked questions.
-- Link to canonical project repositories and authoritative release records.
+- Review and approve the company identity and public portfolio hierarchy; the current company identity page remains in review until its wording is approved for publication.
+- Maintain source-backed, review-stage showcase candidates for VirgoScorpio Hub and EnginEx, linking to their authoritative project repositories and license notices.
+- Keep Harlan GI and CelestialVerse at index level until approved public source material or authoritative project repositories are available; do not invent links or capability details.
+- Add verified getting-started material and frequently asked questions when supported by current project documentation.
+- Link to canonical project repositories and authoritative release records; do not treat a package version as a public release without a corresponding release/tag record.
 
-**Acceptance:** Every substantive claim has an identified source or approval, planned features are distinguished from released capabilities, and protected architecture or IP evidence remains excluded.
+**Acceptance:** Every substantive claim has an identified source or approval, project versions and public releases are distinguished, planned capabilities are distinguished from released capabilities, project-specific licenses are not conflated with this repository's license, and protected architecture or IP evidence remains excluded.
 
 ## Phase 3 — Community and communications
 
