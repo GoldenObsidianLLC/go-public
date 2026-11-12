@@ -4,9 +4,9 @@ This section contains approved public-facing material about Golden Obsidian LLC:
 
 ## Canonical company document
 
-- [Company Identity](company-identity.md) — the authoritative overview of the company's mission, vision, engineering philosophy, portfolio structure, and public-claim boundaries.
+- [Company Identity](company-identity.md) - the current review-stage candidate for the canonical overview of the company's mission, vision, engineering philosophy, portfolio structure, and public-claim boundaries.
 
-Keep the company identity page as the single canonical home for company-wide positioning. Other pages should link to it rather than restating its mission or portfolio descriptions.
+Once approved, keep the company identity page as the single canonical home for company-wide positioning. Until its status changes from review to published, treat its wording as a candidate public statement and do not silently duplicate it in other sections.
 
 ## Intended contents
 
