@@ -40,9 +40,9 @@ This roadmap records the intended sequence of work for the public documentation 
 - Add CI checks for Markdown structure, frontmatter shape, internal links, and selected high-confidence credential patterns.
 - Confirm the repository's private vulnerability-reporting settings and branch protections.
 
-**Implementation note (2026-11-12):** A feature-branch implementation adds the three issue forms, pull request checklist, dependency-free Markdown validator, standard-library unit tests, and GitHub Actions workflow. Phase 1 remains open until the workflow has passed on GitHub and branch protection is verified. The repository's issue labels and defaults have been configured, and private vulnerability reporting was enabled and verified through GitHub's API on 2026-11-12. Local validation does not establish that the remote workflow has passed.
+**Implementation note (2026-11-12):** Phase 1 is complete. The three issue forms, pull request checklist, dependency-free Markdown validator, standard-library unit tests, and GitHub Actions workflow were merged through [PR #2](https://github.com/GoldenObsidianLLC/go-public/pull/2). The `Validate documentation` check passed on GitHub before merge. Main-branch protection was enabled and verified: pull requests are required, the documentation check must pass against an up-to-date branch, administrators are included, force pushes and branch deletion are blocked, and conversations must be resolved. Required approving reviews are set to zero so the repository's single-maintainer workflow is not blocked. Issue labels and defaults are configured, and private vulnerability reporting was enabled and verified through GitHub's API.
 
-**Acceptance:** A contributor can report an issue, submit a focused pull request, and receive automated baseline validation. Security-sensitive reports have a verified private path.
+**Acceptance (met 2026-11-12):** Contributors can report issues, submit focused pull requests, and receive automated baseline validation. Security-sensitive reports have a verified private reporting path.
 
 ## Phase 2 — Verified company and product content
 
