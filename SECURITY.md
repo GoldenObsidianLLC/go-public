@@ -5,7 +5,7 @@ type: "policy"
 status: "published"
 owner: "Golden Obsidian LLC"
 created: "2026-11-11"
-updated: "2026-11-11"
+updated: "2026-11-12"
 license: "CC-BY-4.0"
 tags:
   - security
@@ -19,11 +19,11 @@ Golden Obsidian LLC takes the safe handling of security reports seriously. This 
 
 ## Reporting a vulnerability
 
-1. Check whether GitHub's private vulnerability reporting is enabled for this repository. When available, use the repository's private **Report a vulnerability** flow.
-2. If private reporting is not available, do not post proof-of-concept code, exploit steps, credentials, affected personal data, or other sensitive details publicly. Use a verified private maintainer contact channel linked from the official Golden Obsidian GitHub presence. A public issue may ask for the correct private reporting route, but must not contain the vulnerability details.
+1. As verified on 2026-11-12, GitHub private vulnerability reporting is enabled for this repository. Open the repository's **Security** tab and use the private **Report a vulnerability** flow.
+2. If the private reporting control is unavailable in your account or the interface, do not post proof-of-concept code, exploit steps, credentials, affected personal data, or other sensitive details publicly. Ask a maintainer through an already established private communication channel for a verified secure reporting route; do not send vulnerability details until that route is confirmed. A public issue may ask for the correct private reporting route, but must not contain the vulnerability details.
 3. Share only the minimum information needed to reproduce and assess the issue through the private channel. Allow maintainers a reasonable opportunity to investigate and coordinate a fix before public disclosure.
 
-Do not assume that a security feature is enabled until the repository settings confirm it. This policy does not promise a response time or a particular disclosure timeline.
+The repository setting was confirmed through GitHub's API on 2026-11-12. This policy does not promise a response time or a particular disclosure timeline.
 
 ## Public issue hygiene
 

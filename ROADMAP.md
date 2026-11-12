@@ -1,11 +1,11 @@
 ---
 title: "Public Documentation Roadmap"
 description: "Phased plan for establishing, expanding, and maintaining the Golden Obsidian public documentation vault."
-type: "roadmap"
-status: "published"
+type: roadmap
+status: published
 owner: "Golden Obsidian LLC"
 created: "2026-11-11"
-updated: "2026-11-11"
+updated: "2026-11-12"
 license: "CC-BY-4.0"
 tags:
   - roadmap
@@ -37,17 +37,19 @@ This roadmap records the intended sequence of work for the public documentation 
 - Add issue forms for documentation defects, content proposals, and project showcase requests.
 - Add a pull request template with source, licensing, security, link, and review checks.
 - Establish a small, consistent label taxonomy and issue triage expectations.
-- Add CI checks for Markdown formatting, frontmatter shape, internal links, and accidental secret patterns.
-- Confirm the repository's security-reporting settings and branch protections.
+- Add CI checks for Markdown structure, frontmatter shape, internal links, and selected high-confidence credential patterns.
+- Confirm the repository's private vulnerability-reporting settings and branch protections.
 
-**Acceptance:** A contributor can report an issue, submit a focused pull request, and receive automated baseline validation. Security-sensitive reports have a private path.
+**Implementation note (2026-11-12):** A feature-branch implementation adds the three issue forms, pull request checklist, dependency-free Markdown validator, standard-library unit tests, and GitHub Actions workflow. Phase 1 remains open until the workflow has passed on GitHub and branch protection is verified. The repository's issue labels and defaults have been configured, and private vulnerability reporting was enabled and verified through GitHub's API on 2026-11-12. Local validation does not establish that the remote workflow has passed.
+
+**Acceptance:** A contributor can report an issue, submit a focused pull request, and receive automated baseline validation. Security-sensitive reports have a verified private path.
 
 ## Phase 2 — Verified company and product content
 
 **Scope:** Populate the index pages with approved, source-backed documents.
 
-- Add the approved company mission, values, and founder biography.
-- Add public showcase pages for Harlan GI, CelestialVerse, and VirgoScorpio Hub.
+- Review and approve the canonical company identity and public portfolio hierarchy.
+- Add public showcase pages for Harlan GI, CelestialVerse, and VirgoScorpio Hub when their public source material and status are ready.
 - Add verified getting-started material and frequently asked questions.
 - Link to canonical project repositories and authoritative release records.
 
@@ -78,4 +80,4 @@ This roadmap records the intended sequence of work for the public documentation 
 
 Security, licensing, accuracy, broken navigation, and contradictory public claims take priority over cosmetic improvements. Prefer small, reversible changes. Use GitHub issues to capture follow-up work and avoid expanding scope without a clear benefit.
 
-No target dates or release versions are assigned at this stage.
+No target dates or release versions are assigned at this stage. Do not create a version tag for this implementation branch; repository releases remain governed by [Documentation Standards](DOCUMENTATION-STANDARDS.md) and the root [Changelog](CHANGELOG.md).

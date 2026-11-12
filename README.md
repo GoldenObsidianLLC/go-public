@@ -2,26 +2,20 @@
 
 > The public-facing documentation vault, project directory, and community reference point for Golden Obsidian LLC.
 
-This repository is the curated public layer for company vision, approved project overviews, knowledge resources, community information, governance, and announcements. It is authored as a local-first Markdown vault, maintained in VS Code and Obsidian, and published through GitHub.
+This repository is the curated public layer for company identity, approved project overviews, knowledge resources, community information, governance, and announcements. It is authored as a local-first Markdown vault, maintained in VS Code and Obsidian, and published through GitHub.
 
 It is not a mirror of internal engineering work. Confidential material, private architecture specifications, intellectual-property evidence, credentials, and trade secrets must remain outside this public repository.
 
-## Ecosystem
+## Company identity and portfolio
 
-| Project | Public overview |
-| --- | --- |
-| **Harlan GI (H•GI)** | A sovereign artificial intelligence platform described as using hybrid Mixture-of-Experts and Selective State Space Duality architectures. |
-| **CelestialVerse** | A real-time spatial-temporal computing framework and 3D planetary biome builder using WebGPU and 3D Gaussian Splatting. |
-| **VirgoScorpio Hub** | An open-source human–AI collaboration and task-orchestration platform, formerly named SystemFabric. See the [project repository](https://github.com/GoldenObsidianLLC/VirgoScorpio-Hub). |
-
-These are concise public descriptions, not complete technical specifications. Detailed claims, benchmarks, diagrams, and release status should be published only when verified and approved.
+Golden Obsidian LLC is a Houston-based, engineering-led sovereign technology and advanced systems engineering company. Its portfolio spans Governed Intelligence, spatial computing, human–AI collaboration, and enabling developer infrastructure. The [Company Identity](01-vision-and-culture/company-identity.md) is the canonical public overview of the company's mission, principles, portfolio structure, and development boundaries. The [Products and Projects index](02-products-and-projects/README.md) provides project navigation.
 
 ## Repository map
 
 | Path | Purpose |
 | --- | --- |
-| [01 — Vision and Culture](01-vision-and-culture/README.md) | Mission, values, founder profile, and company context. |
-| [02 — Products and Projects](02-products-and-projects/README.md) | Approved product overviews and public project links. |
+| [01 — Vision and Culture](01-vision-and-culture/README.md) | Canonical company identity, mission, principles, and approved founder context. |
+| [02 — Products and Projects](02-products-and-projects/README.md) | Portfolio navigation and public project sources. |
 | [03 — Community and Ecosystem](03-community-and-ecosystem/README.md) | Community participation, supporters, partners, and recognition. |
 | [04 — Knowledge Base](04-knowledge-base/README.md) | Guides, FAQs, practical notes, and learning resources. |
 | [05 — Governance and Policies](05-governance-and-policies/README.md) | Publishing rules, licensing, contribution expectations, and governance. |
@@ -32,7 +26,7 @@ Repository-wide references: [Documentation Standards](DOCUMENTATION-STANDARDS.md
 
 ## Publishing and licensing
 
-The repository uses a scoped licensing model rather than one blanket license for every file: documentation and prose are published under CC BY 4.0; code snippets and helper scripts are published under MIT; protected intellectual property is explicitly excluded and remains All Rights Reserved. See the [canonical licensing policy](05-governance-and-policies/licensing.md) before reusing or contributing material.
+The repository uses a scoped licensing model rather than one blanket license for every file: documentation and prose are published under CC BY 4.0; code snippets and helper scripts authored specifically for this repository are published under MIT; protected intellectual property is explicitly excluded and remains All Rights Reserved. See the [canonical licensing policy](05-governance-and-policies/licensing.md) before reusing or contributing material. Project repositories retain their own license terms.
 
 ## Contributing
 
@@ -40,4 +34,4 @@ Corrections, documentation improvements, and focused proposals are welcome. Plea
 
 ## Repository status
 
-This repository is establishing its public documentation baseline. The section indexes, publishing conventions, and starter templates provide the navigation and controls for adding verified content incrementally. The [roadmap](ROADMAP.md) records planned work; an item is not complete until its acceptance criteria are met and the change is merged.
+This repository is establishing its public documentation baseline and governance controls. Section indexes, publishing conventions, templates, and baseline validation are maintained incrementally. The [roadmap](ROADMAP.md) records planned work; an item is not complete until its acceptance criteria are met and the change is merged.
